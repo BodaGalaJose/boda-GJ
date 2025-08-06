@@ -1,10 +1,11 @@
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Boda | Wedding</title>
-  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Boda Villanos Disney</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <div class="language-switcher">
@@ -12,45 +13,31 @@
     <button onclick="setLanguage('en')">🇬🇧 English</button>
   </div>
 
-  <main>
+  <header>
     <h1 data-es="¡Nos casamos!" data-en="We're getting married!">¡Nos casamos!</h1>
+    <p class="subtitle" data-es="Una boda de villanos Disney" data-en="A Disney Villains Wedding">Una boda de villanos Disney</p>
+  </header>
 
+  <main>
     <section>
       <h2 data-es="Cuándo y dónde" data-en="When & Where">Cuándo y dónde</h2>
       <p data-es="La ceremonia será el 15 de junio de 2026 a las 17:00 en la Finca El Encanto, Madrid."
          data-en="The ceremony will take place on June 15, 2026 at 5:00 PM at Finca El Encanto, Madrid.">
-        La ceremonia será el 15 de junio de 2026 a las 17:00 en la Finca El Encanto, Madrid.
+         La ceremonia será el 15 de junio de 2026 a las 17:00 en la Finca El Encanto, Madrid.
       </p>
     </section>
 
     <section>
-      <h2 data-es="Código de vestimenta" data-en="Dress code">Código de vestimenta</h2>
-      <p data-es="Elegante pero cómodo. Se recomienda evitar el blanco."
-         data-en="Elegant but comfortable. Please avoid white.">
-        Elegante pero cómodo. Se recomienda evitar el blanco.
+      <h2 data-es="Código de vestimenta" data-en="Dress Code">Código de vestimenta</h2>
+      <p data-es="Inspiración villanos Disney. Elegante, oscuro y mágico. No se permite el blanco."
+         data-en="Disney Villains inspired. Elegant, dark and magical. White is not allowed.">
+         Inspiración villanos Disney. Elegante, oscuro y mágico. No se permite el blanco.
       </p>
     </section>
 
     <section>
-      <h2 data-es="Confirmar asistencia" data-en="RSVP">Confirmar asistencia</h2>
-      <form id="rsvp-form" netlify>
-        <label data-es="Nombre completo:" data-en="Full name:">Nombre completo:</label>
-        <input type="text" name="name" required>
-
-        <label data-es="¿Asistirás?" data-en="Will you attend?">¿Asistirás?</label>
-        <select name="attendance" required>
-          <option value="sí" data-es="Sí" data-en="Yes">Sí</option>
-          <option value="no" data-es="No" data-en="No">No</option>
-        </select>
-
-        <label data-es="Alergias o preferencias alimenticias:"
-               data-en="Allergies or dietary preferences:">
-               Alergias o preferencias alimenticias:
-        </label>
-        <textarea name="diet" rows="4" placeholder="Ej: Vegetariano, sin gluten..."></textarea>
-
-        <button type="submit" data-es="Enviar" data-en="Submit">Enviar</button>
-      </form>
+      <h2 data-es="Confirmación de asistencia" data-en="RSVP">Confirmación de asistencia</h2>
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSessrToVkzvrhRUQwUC-1bSOgbNDRs5WK0M-G6dNIcJcvsWcA/viewform?embedded=true" width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
     </section>
   </main>
 
